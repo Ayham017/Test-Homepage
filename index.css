@@ -1,0 +1,248 @@
+html,body {
+    margin: 0;
+    background-color: #cfcfcf;
+    font-size: 16px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+/* Nav Section */
+
+nav {
+    display: flex;
+    border-bottom: black solid;
+    position: fixed;
+    z-index: 2;
+    background-color: #ffffff;
+    width: 100%;
+    justify-content: space-around;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+nav img {
+    padding: 10px 0px;
+    width: 10rem;
+    height: auto;
+}
+
+.nav-content ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-content li {
+    padding: 10px 15px;
+}
+
+.nav-content a {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    top: 0;
+}
+
+.nav-content a:hover {
+    font-size: 1.2rem;
+    color: #222222;
+    transition-delay: 0.1s;
+    transform-style: flat;
+}
+
+/* Main Section */
+
+main {
+    padding-top: 120px;
+}
+
+.Company {
+    width: 95%;
+    padding: 10px;
+    background-image: url(./images/coca-cola-clouds.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
+.p1 {
+    background-color: #b6b6b6;
+    opacity: 85%;
+    border: 2 #b6b6b6 solid;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.p1 p {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.Bigger {
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.Big {
+    font-size: 2rem;
+}
+
+.Mission {
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    width: 95%;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.CM {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.p2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 254, 254);
+    line-height: 2.5;
+    font-size: 1rem;
+}
+
+#icon2 {
+    padding: 10px;
+    width: 5rem;
+    height: auto;
+}
+
+.Brands {
+    margin: 0 auto;
+    background-color: #000000;
+    border: 1 #000000 solid;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    
+}
+
+.Brands h1 {
+    text-align: center;
+    color: rgb(253, 253, 253);
+    text-decoration: underline;
+}
+
+.Brands h3 {
+    text-align: center;
+    color: ghostwhite;
+    text-decoration: underline;
+}
+
+#category {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 15px;
+}
+
+#category img {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 8rem;
+    height: auto;
+}
+
+.emp {
+    background-color: #000000;
+    border: 1 #000000 solid;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.employees {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.emp h1 {
+    color: ghostwhite;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Teamate {
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.Teamate img {
+    width: 12rem;
+    height: auto;
+}
+
+.Teamate h3 {
+    color: ghostwhite;
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.Teamate p {
+    color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* footer */
+
+footer {
+    background-color: #000000;
+    padding: 10px;
+    width: 100%;
+}
+
+footer h1 {
+    color: ghostwhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+footer p {
+    color: ghostwhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
